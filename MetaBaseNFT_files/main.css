@@ -1222,4 +1222,7 @@ body > .container {
     transform: translate(0, 0);
     margin: 25px auto;
   }
+  .allocation-input-total {
+    width: 100%;
+  }
 }
