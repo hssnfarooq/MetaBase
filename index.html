@@ -1,0 +1,2481 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://platforma.local/support -->
+<html lang="en" class="loaded">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="csrf-token"
+      content="on6kAGcb99NRq4p0hxQhRAyPBFiUSYTCrzSPHNKj"
+    />
+    <title>MetaBaseNFT</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui"
+    />
+
+    <!-- Tippy Link -->
+
+    <script src="./MetaBaseNFT_files/popper.js@1"></script>
+    <script src="./MetaBaseNFT_files/tippy.js@5"></script>
+    <style data-tippy-stylesheet="">
+      .tippy-tooltip[data-animation="fade"][data-state="hidden"] {
+        opacity: 0;
+      }
+      .tippy-iOS {
+        cursor: pointer !important;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .tippy-popper {
+        pointer-events: none;
+        max-width: calc(100vw - 10px);
+        transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition-property: transform;
+      }
+      .tippy-tooltip {
+        position: relative;
+        color: #fff;
+        border-radius: 4px;
+        font-size: 14px;
+        line-height: 1.4;
+        background-color: #333;
+        transition-property: visibility, opacity, transform;
+        outline: 0;
+      }
+      .tippy-tooltip[data-placement^="top"] > .tippy-arrow {
+        border-width: 8px 8px 0;
+        border-top-color: #333;
+        margin: 0 3px;
+        transform-origin: 50% 0;
+        bottom: -7px;
+      }
+      .tippy-tooltip[data-placement^="bottom"] > .tippy-arrow {
+        border-width: 0 8px 8px;
+        border-bottom-color: #333;
+        margin: 0 3px;
+        transform-origin: 50% 7px;
+        top: -7px;
+      }
+      .tippy-tooltip[data-placement^="left"] > .tippy-arrow {
+        border-width: 8px 0 8px 8px;
+        border-left-color: #333;
+        margin: 3px 0;
+        transform-origin: 0 50%;
+        right: -7px;
+      }
+      .tippy-tooltip[data-placement^="right"] > .tippy-arrow {
+        border-width: 8px 8px 8px 0;
+        border-right-color: #333;
+        margin: 3px 0;
+        transform-origin: 7px 50%;
+        left: -7px;
+      }
+      .tippy-tooltip[data-interactive][data-state="visible"] {
+        pointer-events: auto;
+      }
+      .tippy-tooltip[data-inertia][data-state="visible"] {
+        transition-timing-function: cubic-bezier(0.54, 1.5, 0.38, 1.11);
+      }
+      .tippy-arrow {
+        position: absolute;
+        border-color: transparent;
+        border-style: solid;
+      }
+      .tippy-content {
+        padding: 5px 9px;
+      }
+    </style>
+    <link rel="stylesheet" href="./MetaBaseNFT_files/backdrop.css" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="http://platforma.local/img/favicon-32x32.png"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="http://platforma.local/img/favicon-32x32.png"
+    />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+    <link
+      href="./MetaBaseNFT_files/bootstrap.min.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./MetaBaseNFT_files/font-awesome.min.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./MetaBaseNFT_files/simple-sidebar.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./MetaBaseNFT_files/jquery.dataTables.min.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./MetaBaseNFT_files/bootstrap-switch.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./MetaBaseNFT_files/app.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./MetaBaseNFT_files/main.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./MetaBaseNFT_files/bootstrap-select.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./MetaBaseNFT_files/jquery-ui.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="./MetaBaseNFT_files/css" rel="stylesheet" />
+
+    <!-- BEGIN VENDOR CSS-->
+    <!-- font icons-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./MetaBaseNFT_files/style.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./MetaBaseNFT_files/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./MetaBaseNFT_files/font-awesome.min(1).css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./MetaBaseNFT_files/perfect-scrollbar.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./MetaBaseNFT_files/prism.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./MetaBaseNFT_files/chartist.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./MetaBaseNFT_files/pickadate.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./MetaBaseNFT_files/hopscotch.css"
+    />
+    <!-- END VENDOR CSS-->
+
+    <!-- BEGIN APEX CSS-->
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./MetaBaseNFT_files/app(1).css"
+    />
+    <!-- END APEX CSS-->
+    <!-- BEGIN Page Level CSS-->
+    <!-- END Page Level CSS-->
+    <!-- BEGIN Custom CSS-->
+
+    <link rel="stylesheet" type="text/css" href="./MetaBaseNFT_files/new.css" />
+    <!-- END Custom CSS-->
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./MetaBaseNFT_files/wizard.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./MetaBaseNFT_files/info-box.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./MetaBaseNFT_files/overrides.css"
+    />
+    <style>
+      #preloader {
+        z-index: 9999;
+        background-color: rgba(255, 255, 255, 0.6);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      #loader {
+        display: block;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        width: 150px;
+        height: 150px;
+        margin: -75px 0 0 -75px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #9370db;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+      }
+      #loader:before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #ba55d3;
+        -webkit-animation: spin 3s linear infinite;
+        animation: spin 3s linear infinite;
+      }
+      #loader:after {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #ff00ff;
+        -webkit-animation: spin 1.5s linear infinite;
+        animation: spin 1.5s linear infinite;
+      }
+      @-webkit-keyframes spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+
+      select option[disabled] {
+        display: none;
+      }
+    </style>
+
+    <!-- error logger -->
+  </head>
+
+  <body data-col="2-columns" class="support-index 2-columns pace-done">
+    <div class="pace pace-inactive">
+      <div
+        class="pace-progress"
+        data-progress-text="100%"
+        data-progress="99"
+        style="transform: translate3d(100%, 0px, 0px)"
+      >
+        <div class="pace-progress-inner"></div>
+      </div>
+      <div class="pace-activity"></div>
+    </div>
+    <div id="preloader" class="loader d-none">
+      <div id="loader" class="loader d-none"></div>
+    </div>
+    <div class="wrapper sidebar-lg">
+      <div
+        data-active-color="white"
+        data-background-color="black"
+        data-image="http://platforma.local/app-assets/img/sidebar-bg/beach.jpeg"
+        class="app-sidebar"
+      >
+        <!-- main menu header-->
+        <!-- Sidebar Header starts-->
+        <div class="sidebar-header">
+          <div class="logo clearfix">
+            <a href="http://platforma.local/home" class="logo-text float-left">
+              <img
+                id="logo_text"
+                src="./MetaBaseNFT_files/logo_nft_white_text.png"
+                style="max-height: 13px"
+                alt=""
+              />
+            </a>
+            <a
+              id="sidebarToggle"
+              href="javascript:void(0)"
+              class="nav-toggle d-none d-sm-none d-md-none d-lg-block"
+            >
+              <i data-toggle="expanded" class="toggle-icon ft-toggle-right"></i>
+            </a>
+            <a
+              id="sidebarClose"
+              href="javascript:void(0)"
+              class="nav-close d-block d-md-block d-lg-none d-xl-none"
+            >
+              <i class="ft-x"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Sidebar Header Ends-->
+        <!-- / main menu header-->
+        <!-- main menu content-->
+        <div
+          class="sidebar-content ps-container ps-theme-default ps-active-y"
+          data-ps-id="b8f07546-868f-348f-1ceb-3629947b5ef6"
+        >
+          <div class="nav-container">
+            <ul
+              id="main-menu-navigation"
+              data-menu="menu-navigation"
+              class="navigation navigation-main"
+            >
+              <li class="has-sub nav-item open">
+                <a href="http://platforma.local/support#" class="menu-item">
+                  <i class="ft-aperture"></i>
+                  <span data-i18n="" class="menu-title">Crypto</span>
+                </a>
+                <ul class="menu-content">
+                  <li class="menu-item">
+                    <a
+                      class="create-nft-btn"
+                      href="http://platforma.local/marketplace"
+                      >Collections</a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a href="http://platforma.local/nfts"
+                      >Collections History</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item has-sub open">
+                <a href="http://platforma.local/support#" class="menu-item">
+                  <i class="ft-tablet"></i>
+                  <span data-i18n="" class="menu-title"> Account</span>
+                </a>
+                <ul class="menu-content">
+                  <li class="menu-item">
+                    <a href="http://platforma.local/transactions"
+                      >Transactions</a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a href="http://platforma.local/account">Account Details</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="http://platforma.local/withdrawals">Withdrawals</a>
+                  </li>
+                </ul>
+              </li>
+              <li style="display: none" class="nav-item">
+                <a href="http://platforma.local/transactions/add_funds">
+                  <i class="ft-package"></i>
+                  Bundles
+                </a>
+              </li>
+              <li style="display: none" class="nav-item">
+                <a href="http://platforma.local/socialreferrals">
+                  <i class="icon-user"></i>
+                  Social Referrals
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://platforma.local/faq">
+                  <i class="fa fa-question"></i>
+                  FAQ
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://platforma.local/news">
+                  <i class="fa fa-newspaper-o"></i>
+                  News
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://platforma.local/converter">
+                  <i class="fa fa-balance-scale"></i>
+                  Converter
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://platforma.local/wallet">
+                  <i class="fa fa-money"></i>
+                  My Wallet
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://platforma.local/docs/NFT.pdf" target="_blank">
+                  <i class="fa fa-book"></i>
+                  NFT eBook
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="http://platforma.local/docs/NFT_Guide.pdf"
+                  target="_blank"
+                >
+                  <i class="fa fa-book"></i>
+                  NFT Guide
+                </a>
+              </li>
+              <li class="nav-item hover">
+                <a href="http://platforma.local/support">
+                  <i class="ft-mail"></i>
+                  Support
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://platforma.local/ourstory">
+                  <i class="fa fa-anchor"></i>
+                  Our Story
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://platforma.local/logout">
+                  <i class="ft-power mr-2"></i>
+                  Logout
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px">
+            <div
+              class="ps-scrollbar-x"
+              tabindex="0"
+              style="left: 0px; width: 0px"
+            ></div>
+          </div>
+          <div
+            class="ps-scrollbar-y-rail"
+            style="top: 0px; height: 402px; right: 3px"
+          >
+            <div
+              class="ps-scrollbar-y"
+              tabindex="0"
+              style="top: 0px; height: 165px"
+            ></div>
+          </div>
+          <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px">
+            <div
+              class="ps-scrollbar-x"
+              tabindex="0"
+              style="left: 0px; width: 0px"
+            ></div>
+          </div>
+          <div
+            class="ps-scrollbar-y-rail"
+            style="top: 0px; height: 816px; right: 3px"
+          >
+            <div
+              class="ps-scrollbar-y"
+              tabindex="0"
+              style="top: 0px; height: 724px"
+            ></div>
+          </div>
+        </div>
+        <!-- main menu content-->
+        <div
+          class="sidebar-background"
+          style="
+            background-image: url('http://platforma.local/app-assets/img/sidebar-bg/beach.jpeg');
+            display: block;
+          "
+        ></div>
+        <!-- main menu footer-->
+        <!-- include includes/menu-footer-->
+        <!-- main menu footer-->
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+        <div class="container-fluid side-nav-container">
+          <div class="navbar-header row">
+            <button
+              type="button"
+              data-toggle="collapse"
+              class="navbar-toggle d-lg-none float-left __web-inspector-hide-shortcut__"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div class="navbar-container right-menu-header">
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item mr-2">
+                  <a href="javascript:;" class="nav-link">
+                    <span>Hello Jane, </span>
+                    <span class="yourBalance">
+                      <span>Balance: $</span>
+                      <span class="totalAmount">26&nbsp;890</span>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="modal fade" id="completeTransactionModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <div class="modal-title">
+                <h4>Complete Purchase</h4>
+
+                <span id="modal-created_at" class="font-italic"></span>
+              </div>
+              <button type="button" class="close" data-dismiss="modal">
+                ×
+              </button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              Dear Jane Doe, By clicking 'Confirm' below, you are agreeing for
+              your card to be charged in the <span id="modal-amount"></span>$.
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button id="modal_complete" type="button" class="btn btn-primary">
+                Complete Payment
+              </button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="completeTransactionModalComplete">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Purchase Completed</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                ×
+              </button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">Your transaction has been complete.</div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="completeTransactionModalError">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Purchase Complete Error</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                ×
+              </button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body"></div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-panel">
+        <div class="backdrop hidden"></div>
+
+        <div class="main-content">
+          <div class="content-wrapper">
+            <div class="modal modal-add-funds" tabindex="-1" role="dialog">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button
+                      type="button"
+                      class="btn close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">×</span>
+                    </button>
+                  </div>
+
+                  <div class="modal-body">
+                    <div>
+                      Your balance is not fit to the minimum required NFT
+                      budget, Please add funds to your account in order to
+                      create NFT.
+                    </div>
+                  </div>
+
+                  <div class="modal-footer">
+                    <div>
+                      <button
+                        type="button"
+                        class="btn btn-secondary close-modal yes"
+                        data-dismiss="modal"
+                        style="background-color: yellowgreen"
+                      >
+                        Add Fudns
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary close-modal no"
+                        data-dismiss="modal"
+                      >
+                        Cancel
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end container -->
+
+            <div class="dash-portfolio">
+              <h2 class="dash-portfolio-title">Create a Custom Portfolio</h2>
+              <form class="dash-portfolio-form" id="form">
+                <div class="form-data-item">
+                  <h3 class="form-data-title">1. Portfolio Name</h3>
+                  <div class="form-data-group">
+                    <label for="portfolio-name"
+                      >Enter the name of your portfolio</label
+                    >
+                    <input
+                      type="text"
+                      name="portfolio-name"
+                      id="portfolio-name"
+                    />
+                    <small>This field is mandatory</small>
+                  </div>
+                </div>
+
+                <div class="form-data-item">
+                  <h3 class="form-data-title">2. Portfolio Component</h3>
+                  <div class="form-data-group">
+                    <span class="form-data-group-label"
+                      >Choose the assets that will make up your portfolio (2
+                      minimum, 5 maximum)</span
+                    >
+                    <div class="form-data-group-check">
+                      <div class="checkbox-container-wrapper">
+                        <label class="checkbox-container" for="btc">
+                          <div class="form-data-group-check-wrapper">
+                            <input type="checkbox" name="check-btc" id="btc" />
+                            <span class="checkmark"></span>
+                          </div>
+                          <img
+                            src="./images/check-btc.png"
+                            class="check-icon"
+                            alt=""
+                          />
+                          <div class="form-data-group-check-desc">
+                            <p class="label-name-text">Bitcoin</p>
+                            <p class="label-name-value">BTC</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="checkbox-container-wrapper">
+                        <label class="checkbox-container" for="check-bnb">
+                          <div class="form-data-group-check-wrapper">
+                            <input
+                              type="checkbox"
+                              name="check-bnb"
+                              id="check-bnb"
+                            />
+                            <span class="checkmark"></span>
+                          </div>
+                          <img
+                            src="./images/check-bnb.png"
+                            class="check-icon"
+                            alt=""
+                          />
+                          <div class="form-data-group-check-desc">
+                            <p class="label-name-text">Binance Coin</p>
+                            <p class="label-name-value">BNB</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="checkbox-container-wrapper">
+                        <label class="checkbox-container" for="ada">
+                          <div class="form-data-group-check-wrapper">
+                            <input type="checkbox" name="ada" id="ada" />
+                            <span class="checkmark"></span>
+                          </div>
+                          <img
+                            src="./images/ada.png"
+                            class="check-icon"
+                            alt=""
+                          />
+                          <div class="form-data-group-check-desc">
+                            <p class="label-name-text">Cardano</p>
+                            <p class="label-name-value">ADA</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="checkbox-container-wrapper">
+                        <label class="checkbox-container" for="doge">
+                          <div class="form-data-group-check-wrapper">
+                            <input type="checkbox" name="doge" id="doge" />
+                            <span class="checkmark"></span>
+                          </div>
+                          <img
+                            src="./images/doge.png"
+                            class="check-icon"
+                            alt=""
+                          />
+                          <div class="form-data-group-check-desc">
+                            <p class="label-name-text">Dogecoin</p>
+                            <p class="label-name-value">DOGE</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="checkbox-container-wrapper">
+                        <label class="checkbox-container" for="eth">
+                          <div class="form-data-group-check-wrapper">
+                            <input type="checkbox" name="eth" id="eth" />
+                            <span class="checkmark"></span>
+                          </div>
+                          <img
+                            src="./images/eth.png"
+                            class="check-icon"
+                            alt=""
+                          />
+                          <div class="form-data-group-check-desc">
+                            <p class="label-name-text">Ehtereum</p>
+                            <p class="label-name-value">ETH</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="checkbox-container-wrapper">
+                        <label class="checkbox-container" for="luna">
+                          <div class="form-data-group-check-wrapper">
+                            <input type="checkbox" name="luna" id="luna" />
+                            <span class="checkmark"></span>
+                          </div>
+                          <img
+                            src="./images/luna.png"
+                            class="check-icon"
+                            alt=""
+                          />
+                          <div class="form-data-group-check-desc">
+                            <p class="label-name-text">Teraa</p>
+                            <p class="label-name-value">LUNA</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="checkbox-container-wrapper">
+                        <label class="checkbox-container" for="dot">
+                          <div class="form-data-group-check-wrapper">
+                            <input type="checkbox" name="dot" id="dot" />
+                            <span class="checkmark"></span>
+                          </div>
+                          <img
+                            src="./images/dot.png"
+                            class="check-icon"
+                            alt=""
+                          />
+                          <div class="form-data-group-check-desc">
+                            <p class="label-name-text">Polkadot</p>
+                            <p class="label-name-value">DOT</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="checkbox-container-wrapper">
+                        <label class="checkbox-container" for="solana">
+                          <div class="form-data-group-check-wrapper">
+                            <input type="checkbox" name="solana" id="solana" />
+                            <span class="checkmark"></span>
+                          </div>
+                          <img
+                            src="./images/solana.png"
+                            class="check-icon"
+                            alt=""
+                          />
+                          <div class="form-data-group-check-desc">
+                            <p class="label-name-text">Solana</p>
+                            <p class="label-name-value">SOL</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="checkbox-container-wrapper">
+                        <label class="checkbox-container" for="xrp">
+                          <div class="form-data-group-check-wrapper">
+                            <input type="checkbox" name="xrp" id="xrp" />
+                            <span class="checkmark"></span>
+                          </div>
+                          <img
+                            src="./images/xrp.png"
+                            class="check-icon"
+                            alt=""
+                          />
+                          <div class="form-data-group-check-desc">
+                            <p class="label-name-text">XRP</p>
+                            <p class="label-name-value">XRP</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="checkbox-container-wrapper">
+                        <label class="checkbox-container" for="avax">
+                          <div class="form-data-group-check-wrapper">
+                            <input type="checkbox" name="avax" id="avax" />
+                            <span class="checkmark"></span>
+                          </div>
+                          <img
+                            src="./images/avax.png"
+                            class="check-icon"
+                            alt=""
+                          />
+                          <div class="form-data-group-check-desc">
+                            <p class="label-name-text">Avalance</p>
+                            <p class="label-name-value">AVAX</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="checkbox-container-wrapper">
+                        <label class="checkbox-container" for="check-nfts">
+                          <div class="form-data-group-check-wrapper">
+                            <input
+                              type="checkbox"
+                              name="check-nfts"
+                              id="check-nfts"
+                            />
+                            <span class="checkmark"></span>
+                          </div>
+                          <img
+                            src="./images/check-nfts.png"
+                            class="check-icon"
+                            alt=""
+                          />
+                          <div class="form-data-group-check-desc">
+                            <p class="label-name-text">Trending</p>
+                            <p class="label-name-value">NFTs</p>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-data-item">
+                  <h3 class="form-data-title">3. Allocations</h3>
+                  <div class="form-data-group">
+                    <label for="allocations"
+                      >Specify what percent you want allocated to each asset
+                      (total: 100%)</label
+                    >
+                    <div class="allocations-input-field">
+                      <div class="allocation-data">
+                        <img src="./images/check-btc.png" alt="" />
+                        <p class="allocation-data-text">BTC</p>
+                      </div>
+                      <div class="allocations-field">
+                        <input type="text" name="btc" id="allocations" />
+                      </div>
+                    </div>
+                    <div class="allocations-input-field">
+                      <div class="allocation-data">
+                        <img src="./images/xrp.png" alt="" />
+                        <p class="allocation-data-text">XRP</p>
+                      </div>
+                      <div class="allocations-field">
+                        <input type="text" name="btc" id="allocations" />
+                      </div>
+                    </div>
+                    <div class="allocations-input-field">
+                      <div class="allocation-data">
+                        <img src="./images/doge.png" alt="" />
+                        <p class="allocation-data-text">DOGE</p>
+                      </div>
+                      <div class="allocations-field">
+                        <input type="text" name="btc" id="allocations" />
+                      </div>
+                    </div>
+                    <div class="allocations-input-field">
+                      <div class="allocation-data">
+                        <img src="./images/luna.png" alt="" />
+                        <p class="allocation-data-text">LUNA</p>
+                      </div>
+                      <div class="allocations-field">
+                        <input type="text" name="btc" id="allocations" />
+                      </div>
+                    </div>
+                    <div class="allocations-input-field">
+                      <div class="allocation-data">
+                        <img src="./images/solana.png" alt="" />
+                        <p class="allocation-data-text">SOL</p>
+                      </div>
+                      <div class="allocations-field">
+                        <input type="text" name="btc" id="allocations" />
+                      </div>
+                    </div>
+                    <div class="allocation-input-total">
+                      <p class="allocation-total-title">Total</p>
+                      <p class="allocation-total-value" id="total">100%</p>
+                    </div>
+                    <small>Total amount must be equal to 100%</small>
+                  </div>
+                </div>
+
+                <div class="form-data-item">
+                  <h3 class="form-data-title">4. Amount</h3>
+                  <div class="form-data-group">
+                    <label for="portfolio-name"
+                      >Specify what percent you want allocated to each
+                      asset</label
+                    >
+                    <div class="custom-select-amount">
+                      <select>
+                        <option value="0">$0</option>
+                        <option value="1">$1,000</option>
+                        <option value="2">$2,000</option>
+                        <option value="3">$3,000</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-data-item">
+                  <h3 class="form-data-title">5. Holding Period</h3>
+                  <div class="form-data-group">
+                    <label for="portfolio-name"
+                      >Define how long you want to hold the portfolio</label
+                    >
+                    <div class="custom-select-amount">
+                      <select>
+                        <option value="0">1 week</option>
+                        <option value="1">2 week</option>
+                        <option value="2">3 week</option>
+                        <option value="3">4 week</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-data-item">
+                  <h3 class="form-data-title">6. Advanced Settings</h3>
+
+                  <div class="form-data-group">
+                    <label for="portfolio-name"
+                      >Set your Risk Level:
+                      <span class="range-level">7.5</span> of 10.0</label
+                    >
+                    <div class="range">
+                      <div class="field">
+                        <input
+                          type="range"
+                          min="1"
+                          max="10"
+                          value="7.5"
+                          steps="0.5"
+                          id="range-input"
+                        />
+                        <div class="value-flex">
+                          <div class="value left">1</div>
+                          <div class="value right">10</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-data-group">
+                    <label for="portfolio-name"
+                      >Set your Rebalancing Frequency</label
+                    >
+                    <div class="custom-select-amount">
+                      <select>
+                        <option value="0">Daily</option>
+                        <option value="1">Weekly</option>
+                        <option value="2">Monthly</option>
+                        <option value="3">Yearly</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-data-item">
+                  <button class="btn-continue">Continue</button>
+                </div>
+              </form>
+            </div>
+
+            <footer class="footer footer-custom">
+              <p class="clearfix">
+                <span>
+                  ©2022
+                  <a
+                    href="http://platforma.local/home"
+                    target="_blank"
+                    style="color: black"
+                    >MetaBaseNFT</a
+                  >
+                  LTD. All Rights Reserved.
+                </span>
+                <br />
+                <a
+                  style="color: black"
+                  href="http://platforma.local/docs/Terms-And-Conditions.pdf"
+                  target="_blank"
+                  >Terms</a
+                >
+                -
+                <a
+                  style="color: black"
+                  href="http://platforma.local/docs/Privacy_GDPR.pdf"
+                  target="_blank"
+                  >Privacy</a
+                >
+              </p>
+            </footer>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="settleTransaction">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header bg-info">
+              <h4 class="modal-title white font-weight-bold">Trial Notice</h4>
+
+              <button type="button" class="close" data-dismiss="modal">
+                ×
+              </button>
+            </div>
+            <!-- Modal body -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <aside
+      id="notification-sidebar"
+      class="notification-sidebar d-none d-sm-none d-md-block"
+    >
+      <a class="notification-sidebar-close"
+        ><i class="ft-x font-medium-3"></i
+      ></a>
+      <div
+        class="side-nav notification-sidebar-content ps-container ps-theme-dark ps-active-x ps-active-y"
+        data-ps-id="25621706-5cca-9261-774a-94a63eaad3ad"
+      >
+        <div class="row">
+          <div class="col-12 mt-1">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a
+                  id="base-tab1"
+                  data-toggle="tab"
+                  aria-controls="tab1"
+                  href="http://platforma.local/support#activity-tab"
+                  aria-expanded="true"
+                  class="nav-link active"
+                  >Activity</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  id="base-tab2"
+                  data-toggle="tab"
+                  aria-controls="tab2"
+                  href="http://platforma.local/support#chat-tab"
+                  aria-expanded="false"
+                  class="nav-link"
+                  >Chat</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  id="base-tab3"
+                  data-toggle="tab"
+                  aria-controls="tab3"
+                  href="http://platforma.local/support#settings-tab"
+                  aria-expanded="false"
+                  class="nav-link"
+                  >Settings</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content px-1 pt-1">
+              <div
+                id="activity-tab"
+                role="tabpanel"
+                aria-expanded="true"
+                aria-labelledby="base-tab1"
+                class="tab-pane active"
+              >
+                <div id="activity" class="col-12 timeline-left">
+                  <h6 class="mt-1 mb-3 text-bold-400">RECENT ACTIVITY</h6>
+                  <div id="timeline" class="timeline-left timeline-wrapper">
+                    <ul class="timeline">
+                      <li class="timeline-line"></li>
+                      <li class="timeline-item">
+                        <div class="timeline-badge">
+                          <span
+                            data-toggle="tooltip"
+                            data-placement="right"
+                            title="Portfolio project work"
+                            class="bg-purple bg-lighten-1"
+                            ><i class="ft-shopping-cart"></i
+                          ></span>
+                        </div>
+                        <div class="col s9 recent-activity-list-text">
+                          <a
+                            href="http://platforma.local/support#"
+                            class="deep-purple-text medium-small"
+                            >just now</a
+                          >
+                          <p
+                            class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small"
+                          >
+                            Jim Doe Purchased new equipments for zonal office.
+                          </p>
+                        </div>
+                      </li>
+                      <li class="timeline-item">
+                        <div class="timeline-badge">
+                          <span
+                            data-toggle="tooltip"
+                            data-placement="right"
+                            title="Portfolio project work"
+                            class="bg-info bg-lighten-1"
+                            ><i class="fa fa-plane"></i
+                          ></span>
+                        </div>
+                        <div class="col s9 recent-activity-list-text">
+                          <a
+                            href="http://platforma.local/support#"
+                            class="cyan-text medium-small"
+                            >Yesterday</a
+                          >
+                          <p
+                            class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small"
+                          >
+                            Your Next flight for USA will be on 15th August
+                            2015.
+                          </p>
+                        </div>
+                      </li>
+                      <li class="timeline-item">
+                        <div class="timeline-badge">
+                          <span
+                            data-toggle="tooltip"
+                            data-placement="right"
+                            title="Portfolio project work"
+                            class="bg-success bg-lighten-1"
+                            ><i class="ft-mic"></i
+                          ></span>
+                        </div>
+                        <div class="col s9 recent-activity-list-text">
+                          <a
+                            href="http://platforma.local/support#"
+                            class="green-text medium-small"
+                            >5 Days Ago</a
+                          >
+                          <p
+                            class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small"
+                          >
+                            Natalya Parker Send you a voice mail for next
+                            conference.
+                          </p>
+                        </div>
+                      </li>
+                      <li class="timeline-item">
+                        <div class="timeline-badge">
+                          <span
+                            data-toggle="tooltip"
+                            data-placement="right"
+                            title="Portfolio project work"
+                            class="bg-warning bg-lighten-1"
+                            ><i class="ft-map-pin"></i
+                          ></span>
+                        </div>
+                        <div class="col s9 recent-activity-list-text">
+                          <a
+                            href="http://platforma.local/support#"
+                            class="amber-text medium-small"
+                            >1 Week Ago</a
+                          >
+                          <p
+                            class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small"
+                          >
+                            Jessy Jay open a new store at S.G Road.
+                          </p>
+                        </div>
+                      </li>
+                      <li class="timeline-item">
+                        <div class="timeline-badge">
+                          <span
+                            data-toggle="tooltip"
+                            data-placement="right"
+                            title="Portfolio project work"
+                            class="bg-red bg-lighten-1"
+                            ><i class="ft-inbox"></i
+                          ></span>
+                        </div>
+                        <div class="col s9 recent-activity-list-text">
+                          <a
+                            href="http://platforma.local/support#"
+                            class="deep-orange-text medium-small"
+                            >2 Week Ago</a
+                          >
+                          <p
+                            class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small"
+                          >
+                            voice mail for conference.
+                          </p>
+                        </div>
+                      </li>
+                      <li class="timeline-item">
+                        <div class="timeline-badge">
+                          <span
+                            data-toggle="tooltip"
+                            data-placement="right"
+                            title="Portfolio project work"
+                            class="bg-cyan bg-lighten-1"
+                            ><i class="ft-mic"></i
+                          ></span>
+                        </div>
+                        <div class="col s9 recent-activity-list-text">
+                          <a
+                            href="http://platforma.local/support#"
+                            class="brown-text medium-small"
+                            >1 Month Ago</a
+                          >
+                          <p
+                            class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small"
+                          >
+                            Natalya Parker Send you a voice mail for next
+                            conference.
+                          </p>
+                        </div>
+                      </li>
+                      <li class="timeline-item">
+                        <div class="timeline-badge">
+                          <span
+                            data-toggle="tooltip"
+                            data-placement="right"
+                            title="Portfolio project work"
+                            class="bg-amber bg-lighten-1"
+                            ><i class="ft-map-pin"></i
+                          ></span>
+                        </div>
+                        <div class="col s9 recent-activity-list-text">
+                          <a
+                            href="http://platforma.local/support#"
+                            class="deep-purple-text medium-small"
+                            >3 Month Ago</a
+                          >
+                          <p
+                            class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small"
+                          >
+                            Jessy Jay open a new store at S.G Road.
+                          </p>
+                        </div>
+                      </li>
+                      <li class="timeline-item">
+                        <div class="timeline-badge">
+                          <span
+                            data-toggle="tooltip"
+                            data-placement="right"
+                            title="Portfolio project work"
+                            class="bg-grey bg-lighten-1"
+                            ><i class="ft-inbox"></i
+                          ></span>
+                        </div>
+                        <div class="col s9 recent-activity-list-text">
+                          <a
+                            href="http://platforma.local/support#"
+                            class="grey-text medium-small"
+                            >1 Year Ago</a
+                          >
+                          <p
+                            class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small"
+                          >
+                            voice mail for conference.
+                          </p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div id="chat-tab" aria-labelledby="base-tab2" class="tab-pane">
+                <div id="chatapp" class="col-12">
+                  <h6 class="mt-1 mb-3 text-bold-400">RECENT CHAT</h6>
+                  <div class="collection border-none">
+                    <div class="media mb-1">
+                      <a
+                        ><img
+                          alt="96x96"
+                          src="http://platforma.local/support"
+                          class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"
+                      /></a>
+                      <div class="media-body">
+                        <div class="clearfix">
+                          <h4
+                            class="font-medium-1 primary mt-1 mb-0 mr-auto float-left"
+                          >
+                            Elizabeth Elliott
+                          </h4>
+                          <span
+                            class="medium-small float-right blue-grey-text text-lighten-3"
+                            >5.00 AM</span
+                          >
+                        </div>
+                        <p class="text-muted font-small-3">Thank you</p>
+                      </div>
+                    </div>
+
+                    <div class="media mb-1">
+                      <a
+                        ><img
+                          alt="96x96"
+                          src="http://platforma.local/support"
+                          class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"
+                      /></a>
+                      <div class="media-body">
+                        <div class="clearfix">
+                          <h4
+                            class="font-medium-1 primary mt-1 mb-0 mr-auto float-left"
+                          >
+                            Mary Adams
+                          </h4>
+                          <span
+                            class="medium-small float-right blue-grey-text text-lighten-3"
+                            >4.14 AM</span
+                          >
+                        </div>
+                        <p class="text-muted font-small-3">Hello Boo</p>
+                      </div>
+                    </div>
+
+                    <div class="media mb-1">
+                      <a
+                        ><img
+                          alt="96x96"
+                          src="http://platforma.local/support"
+                          class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"
+                      /></a>
+                      <div class="media-body">
+                        <div class="clearfix">
+                          <h4
+                            class="font-medium-1 primary mt-1 mb-0 mr-auto float-left"
+                          >
+                            Caleb Richards
+                          </h4>
+                          <span
+                            class="medium-small float-right blue-grey-text text-lighten-3"
+                            >9.00 PM</span
+                          >
+                        </div>
+                        <p class="text-muted font-small-3">Keny !</p>
+                      </div>
+                    </div>
+
+                    <div class="media mb-1">
+                      <a
+                        ><img
+                          alt="96x96"
+                          src="http://platforma.local/support"
+                          class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"
+                      /></a>
+                      <div class="media-body">
+                        <div class="clearfix">
+                          <h4
+                            class="font-medium-1 primary mt-1 mb-0 mr-auto float-left"
+                          >
+                            June Lane
+                          </h4>
+                          <span
+                            class="medium-small float-right blue-grey-text text-lighten-3"
+                            >4.14 AM</span
+                          >
+                        </div>
+                        <p class="text-muted font-small-3">Ohh God</p>
+                      </div>
+                    </div>
+
+                    <div class="media mb-1">
+                      <a
+                        ><img
+                          alt="96x96"
+                          src="http://platforma.local/support"
+                          class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"
+                      /></a>
+                      <div class="media-body">
+                        <div class="clearfix">
+                          <h4
+                            class="font-medium-1 primary mt-1 mb-0 mr-auto float-left"
+                          >
+                            Edward Fletcher
+                          </h4>
+                          <span
+                            class="medium-small float-right blue-grey-text text-lighten-3"
+                            >5.15 PM</span
+                          >
+                        </div>
+                        <p class="text-muted font-small-3">Love you</p>
+                      </div>
+                    </div>
+
+                    <div class="media mb-1">
+                      <a
+                        ><img
+                          alt="96x96"
+                          src="http://platforma.local/support"
+                          class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"
+                      /></a>
+                      <div class="media-body">
+                        <div class="clearfix">
+                          <h4
+                            class="font-medium-1 primary mt-1 mb-0 mr-auto float-left"
+                          >
+                            Crystal Bates
+                          </h4>
+                          <span
+                            class="medium-small float-right blue-grey-text text-lighten-3"
+                            >8.00 AM</span
+                          >
+                        </div>
+                        <p class="text-muted font-small-3">Can we</p>
+                      </div>
+                    </div>
+
+                    <div class="media mb-1">
+                      <a
+                        ><img
+                          alt="96x96"
+                          src="http://platforma.local/support"
+                          class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"
+                      /></a>
+                      <div class="media-body">
+                        <div class="clearfix">
+                          <h4
+                            class="font-medium-1 primary mt-1 mb-0 mr-auto float-left"
+                          >
+                            Nathan Watts
+                          </h4>
+                          <span
+                            class="medium-small float-right blue-grey-text text-lighten-3"
+                            >9.53 PM</span
+                          >
+                        </div>
+                        <p class="text-muted font-small-3">Great!</p>
+                      </div>
+                    </div>
+
+                    <div class="media mb-1">
+                      <a
+                        ><img
+                          alt="96x96"
+                          src="http://platforma.local/support"
+                          class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"
+                      /></a>
+                      <div class="media-body">
+                        <div class="clearfix">
+                          <h4
+                            class="font-medium-1 primary mt-1 mb-0 mr-auto float-left"
+                          >
+                            Willard Wood
+                          </h4>
+                          <span
+                            class="medium-small float-right blue-grey-text text-lighten-3"
+                            >4.20 AM</span
+                          >
+                        </div>
+                        <p class="text-muted font-small-3">Do it</p>
+                      </div>
+                    </div>
+
+                    <div class="media mb-1">
+                      <a
+                        ><img
+                          alt="96x96"
+                          src="http://platforma.local/support"
+                          class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"
+                      /></a>
+                      <div class="media-body">
+                        <div class="clearfix">
+                          <h4
+                            class="font-medium-1 primary mt-1 mb-0 mr-auto float-left"
+                          >
+                            Ronnie Ellis
+                          </h4>
+                          <span
+                            class="medium-small float-right blue-grey-text text-lighten-3"
+                            >5.30 PM</span
+                          >
+                        </div>
+                        <p class="text-muted font-small-3">Got that</p>
+                      </div>
+                    </div>
+
+                    <div class="media mb-1">
+                      <a
+                        ><img
+                          alt="96x96"
+                          src="http://platforma.local/support"
+                          class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"
+                      /></a>
+                      <div class="media-body">
+                        <div class="clearfix">
+                          <h4
+                            class="font-medium-1 primary mt-1 mb-0 mr-auto float-left"
+                          >
+                            Gwendolyn Wood
+                          </h4>
+                          <span
+                            class="medium-small float-right blue-grey-text text-lighten-3"
+                            >4.34 AM</span
+                          >
+                        </div>
+                        <p class="text-muted font-small-3">Like you</p>
+                      </div>
+                    </div>
+
+                    <div class="media mb-1">
+                      <a
+                        ><img
+                          alt="96x96"
+                          src="http://platforma.local/support"
+                          class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"
+                      /></a>
+                      <div class="media-body">
+                        <div class="clearfix">
+                          <h4
+                            class="font-medium-1 primary mt-1 mb-0 mr-auto float-left"
+                          >
+                            Daniel Russell
+                          </h4>
+                          <span
+                            class="medium-small float-right blue-grey-text text-lighten-3"
+                            >12.00 AM</span
+                          >
+                        </div>
+                        <p class="text-muted font-small-3">Thank you</p>
+                      </div>
+                    </div>
+
+                    <div class="media mb-1">
+                      <a
+                        ><img
+                          alt="96x96"
+                          src="http://platforma.local/support"
+                          class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"
+                      /></a>
+                      <div class="media-body">
+                        <div class="clearfix">
+                          <h4
+                            class="font-medium-1 primary mt-1 mb-0 mr-auto float-left"
+                          >
+                            Sarah Graves
+                          </h4>
+                          <span
+                            class="medium-small float-right blue-grey-text text-lighten-3"
+                            >11.14 PM</span
+                          >
+                        </div>
+                        <p class="text-muted font-small-3">Okay you</p>
+                      </div>
+                    </div>
+
+                    <div class="media mb-1">
+                      <a
+                        ><img
+                          alt="96x96"
+                          src="http://platforma.local/support"
+                          class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"
+                      /></a>
+                      <div class="media-body">
+                        <div class="clearfix">
+                          <h4
+                            class="font-medium-1 primary mt-1 mb-0 mr-auto float-left"
+                          >
+                            Andrew Hoffman
+                          </h4>
+                          <span
+                            class="medium-small float-right blue-grey-text text-lighten-3"
+                            >7.30 PM</span
+                          >
+                        </div>
+                        <p class="text-muted font-small-3">Can do</p>
+                      </div>
+                    </div>
+
+                    <div class="media mb-1">
+                      <a
+                        ><img
+                          alt="96x96"
+                          src="http://platforma.local/support"
+                          class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"
+                      /></a>
+                      <div class="media-body">
+                        <div class="clearfix">
+                          <h4
+                            class="font-medium-1 primary mt-1 mb-0 mr-auto float-left"
+                          >
+                            Camila Lynch
+                          </h4>
+                          <span
+                            class="medium-small float-right blue-grey-text text-lighten-3"
+                            >2.00 PM</span
+                          >
+                        </div>
+                        <p class="text-muted font-small-3">Leave it</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                id="settings-tab"
+                aria-labelledby="base-tab3"
+                class="tab-pane"
+              >
+                <div id="settings" class="col-12">
+                  <h6 class="mt-1 mb-3 text-bold-400">GENERAL SETTINGS</h6>
+                  <ul class="list-unstyled">
+                    <li>
+                      <div class="togglebutton">
+                        <div class="switch">
+                          <span class="text-bold-500">Notifications</span>
+                          <div class="float-right">
+                            <label
+                              class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0"
+                            >
+                              <input
+                                checked="checked"
+                                type="checkbox"
+                                class="custom-control-input cz-bg-image-display"
+                              /><span class="custom-control-indicator"></span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Use checkboxes when looking for yes or no answers.</p>
+                    </li>
+                    <li>
+                      <div class="togglebutton">
+                        <div class="switch">
+                          <span class="text-bold-500"
+                            >Show recent activity</span
+                          >
+                          <div class="float-right">
+                            <label
+                              class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0"
+                            >
+                              <input
+                                checked="checked"
+                                type="checkbox"
+                                class="custom-control-input cz-bg-image-display"
+                              /><span class="custom-control-indicator"></span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        The for attribute is necessary to bind our custom
+                        checkbox with the input.
+                      </p>
+                    </li>
+                    <li>
+                      <div class="togglebutton">
+                        <div class="switch">
+                          <span class="text-bold-500">Notifications</span>
+                          <div class="float-right">
+                            <label
+                              class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0"
+                            >
+                              <input
+                                type="checkbox"
+                                class="custom-control-input cz-bg-image-display"
+                              /><span class="custom-control-indicator"></span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Use checkboxes when looking for yes or no answers.</p>
+                    </li>
+                    <li>
+                      <div class="togglebutton">
+                        <div class="switch">
+                          <span class="text-bold-500"
+                            >Show recent activity</span
+                          >
+                          <div class="float-right">
+                            <label
+                              class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0"
+                            >
+                              <input
+                                type="checkbox"
+                                class="custom-control-input cz-bg-image-display"
+                              /><span class="custom-control-indicator"></span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        The for attribute is necessary to bind our custom
+                        checkbox with the input.
+                      </p>
+                    </li>
+                    <li>
+                      <div class="togglebutton">
+                        <div class="switch">
+                          <span class="text-bold-500">Show your emails</span>
+                          <div class="float-right">
+                            <label
+                              class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0"
+                            >
+                              <input
+                                type="checkbox"
+                                class="custom-control-input cz-bg-image-display"
+                              /><span class="custom-control-indicator"></span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Use checkboxes when looking for yes or no answers.</p>
+                    </li>
+                    <li>
+                      <div class="togglebutton">
+                        <div class="switch">
+                          <span class="text-bold-500"
+                            >Show Task statistics</span
+                          >
+                          <div class="float-right">
+                            <label
+                              class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0"
+                            >
+                              <input
+                                type="checkbox"
+                                class="custom-control-input cz-bg-image-display"
+                              /><span class="custom-control-indicator"></span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        The for attribute is necessary to bind our custom
+                        checkbox with the input.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ps-scrollbar-x-rail"
+          style="width: 399px; left: 0px; bottom: 3px"
+        >
+          <div
+            class="ps-scrollbar-x"
+            tabindex="0"
+            style="left: 0px; width: 394px"
+          ></div>
+        </div>
+        <div
+          class="ps-scrollbar-y-rail"
+          style="top: 0px; height: 625px; right: 3px"
+        >
+          <div
+            class="ps-scrollbar-y"
+            tabindex="0"
+            style="top: 0px; height: 318px"
+          ></div>
+        </div>
+        <div
+          class="ps-scrollbar-x-rail"
+          style="width: 399px; left: 0px; bottom: 3px"
+        >
+          <div
+            class="ps-scrollbar-x"
+            tabindex="0"
+            style="left: 0px; width: 394px"
+          ></div>
+        </div>
+        <div
+          class="ps-scrollbar-y-rail"
+          style="top: 0px; height: 906px; right: 3px"
+        >
+          <div
+            class="ps-scrollbar-y"
+            tabindex="0"
+            style="top: 0px; height: 676px"
+          ></div>
+        </div>
+      </div>
+    </aside>
+
+    <div
+      style="display: none !important"
+      class="border-left-blue-grey border-left-lighten-4 d-none d-sm-none d-md-block"
+    >
+      <a class="customizer-close"><i class="ft-x font-medium-3"></i></a
+      ><a id="customizer-toggle-icon" class="customizer-toggle bg-danger"
+        ><i class="ft-settings font-medium-4 fa fa-spin white align-middle"></i
+      ></a>
+      <div
+        data-ps-id="eacf6854-e2de-9b6c-a650-a9fb06c51fed"
+        class="customizer-content p-3 ps-container ps-theme-dark"
+      >
+        <h4 class="text-uppercase mb-0 text-bold-400">Site Customizer</h4>
+        <p>Customize Your MetaBaseNFT</p>
+        <hr />
+        <!-- Sidebar Options Starts-->
+        <h6 class="text-center text-bold-500 mb-3 text-uppercase">
+          Sidebar Color Options
+        </h6>
+        <div class="cz-bg-color">
+          <div class="row p-1">
+            <div class="col">
+              <span
+                style="width: 20px; height: 20px"
+                data-type="color"
+                data-color-name="gradient-pomegranate"
+                data-bg-color="pomegranate"
+                class="gradient-pomegranate d-block rounded-circle theme-color"
+              ></span>
+            </div>
+            <div class="col">
+              <span
+                style="width: 20px; height: 20px"
+                data-type="color"
+                data-color-name="gradient-king-yna"
+                data-bg-color="king-yna"
+                class="gradient-king-yna d-block rounded-circle theme-color"
+              ></span>
+            </div>
+            <div class="col">
+              <span
+                style="width: 20px; height: 20px"
+                data-type="color"
+                data-color-name="gradient-ibiza-sunset"
+                data-bg-color="ibiza-sunset"
+                class="gradient-ibiza-sunset d-block rounded-circle theme-color"
+              ></span>
+            </div>
+            <div class="col">
+              <span
+                style="width: 20px; height: 20px"
+                data-type="color"
+                data-color-name="gradient-flickr"
+                data-bg-color="flickr"
+                class="gradient-flickr d-block rounded-circle theme-color"
+              ></span>
+            </div>
+            <div class="col">
+              <span
+                style="width: 20px; height: 20px"
+                data-type="color"
+                data-color-name="gradient-purple-bliss"
+                data-bg-color="purple-bliss"
+                class="gradient-purple-bliss d-block rounded-circle theme-color"
+              ></span>
+            </div>
+            <div class="col">
+              <span
+                style="width: 20px; height: 20px"
+                data-type="color"
+                data-color-name="gradient-man-of-steel"
+                data-bg-color="man-of-steel"
+                class="gradient-man-of-steel d-block rounded-circle theme-color"
+              ></span>
+            </div>
+            <div class="col">
+              <span
+                style="width: 20px; height: 20px"
+                data-type="color"
+                data-color-name="gradient-purple-love"
+                data-bg-color="purple-love"
+                class="gradient-purple-love d-block rounded-circle theme-color"
+              ></span>
+            </div>
+          </div>
+          <div class="row p-1">
+            <div class="col">
+              <span
+                style="width: 20px; height: 20px"
+                data-type="color"
+                data-color-name="bg-b-black"
+                data-bg-color="black"
+                class="bg-black d-block rounded-circle theme-color selected"
+              ></span>
+            </div>
+            <div class="col">
+              <span
+                style="width: 20px; height: 20px"
+                data-type="color"
+                data-color-name="bg-grey"
+                data-bg-color="white"
+                class="bg-grey d-block rounded-circle theme-color"
+              ></span>
+            </div>
+            <div class="col">
+              <span
+                style="width: 20px; height: 20px"
+                data-type="color"
+                data-color-name="bg-primary"
+                data-bg-color="primary"
+                class="bg-primary d-block rounded-circle theme-color"
+              ></span>
+            </div>
+            <div class="col">
+              <span
+                style="width: 20px; height: 20px"
+                data-type="color"
+                data-color-name="bg-success"
+                data-bg-color="success"
+                class="bg-success d-block rounded-circle theme-color"
+              ></span>
+            </div>
+            <div class="col">
+              <span
+                style="width: 20px; height: 20px"
+                data-type="color"
+                data-color-name="bg-warning"
+                data-bg-color="warning"
+                class="bg-warning d-block rounded-circle theme-color"
+              ></span>
+            </div>
+            <div class="col">
+              <span
+                style="width: 20px; height: 20px"
+                data-type="color"
+                data-color-name="bg-info"
+                data-bg-color="info"
+                class="bg-info d-block rounded-circle theme-color"
+              ></span>
+            </div>
+            <div class="col">
+              <span
+                style="width: 20px; height: 20px"
+                data-type="color"
+                data-color-name="bg-danger"
+                data-bg-color="danger"
+                class="bg-danger d-block rounded-circle theme-color"
+              ></span>
+            </div>
+          </div>
+        </div>
+        <!-- Sidebar Options Ends-->
+        <hr />
+        <!-- Sidebar BG Image Starts-->
+
+        <!-- Sidebar BG Image Ends-->
+        <hr />
+        <!-- Sidebar BG Image Toggle Starts-->
+        <div class="togglebutton">
+          <div class="switch">
+            <span>Sidebar Bg Image</span>
+            <div class="float-right">
+              <label
+                class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0"
+              >
+                <input
+                  type="checkbox"
+                  id="cz-bg-image"
+                  data-type="image"
+                  onchange="Main.configUserTheme(this)"
+                  checked=""
+                  class="custom-control-input cz-bg-image-display"
+                /><span class="custom-control-indicator"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- Sidebar BG Image Toggle Ends-->
+        <hr />
+        <!-- Compact Menu Starts-->
+        <div class="togglebutton">
+          <div class="switch">
+            <span>Compact Menu</span>
+            <div class="float-right">
+              <label
+                class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0"
+              >
+                <input
+                  id="cz-compact-menu"
+                  type="checkbox"
+                  data-type="menu"
+                  onchange="Main.configUserTheme(this)"
+                  class="custom-control-input cz-compact-menu"
+                /><span class="custom-control-indicator"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- Compact Menu Ends-->
+        <hr />
+        <!-- Sidebar Width Starts-->
+        <div>
+          <label for="cz-sidebar-width">Sidebar Width</label>
+          <select
+            id="cz-sidebar-width"
+            class="custom-select cz-sidebar-width float-right"
+          >
+            <option value="small">Small</option>
+            <option value="medium" selected="">Medium</option>
+            <option value="large">Large</option>
+          </select>
+        </div>
+        <!-- Sidebar Width Ends-->
+        <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px">
+          <div
+            class="ps-scrollbar-x"
+            tabindex="0"
+            style="left: 0px; width: 0px"
+          ></div>
+        </div>
+        <div
+          class="ps-scrollbar-y-rail"
+          style="top: 0px; height: 625px; right: 3px"
+        >
+          <div
+            class="ps-scrollbar-y"
+            tabindex="0"
+            style="top: 0px; height: 434px"
+          ></div>
+        </div>
+        <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px">
+          <div
+            class="ps-scrollbar-x"
+            tabindex="0"
+            style="left: 0px; width: 0px"
+          ></div>
+        </div>
+        <div class="ps-scrollbar-y-rail" style="top: 0px; right: 3px">
+          <div
+            class="ps-scrollbar-y"
+            tabindex="0"
+            style="top: 0px; height: 0px"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="dash-portfolio-modal">
+      <!-- Modal content -->
+      <div class="dash-portfolio-modal-content">
+        <h1 class="dash-portfolio-title-modal">Portfolio Confirmation</h1>
+        <div class="dash-portfolio-modal-body">
+          <div class="dash-portfolio-modal-item">
+            <p class="dash-portfolio-form-field-name">Portfolio Name:</p>
+            <p class="dash-portfolio-form-field-text">My Portfolio 1</p>
+          </div>
+          <div class="dash-portfolio-modal-item">
+            <p class="dash-portfolio-form-field-name">Components:</p>
+            <div class="dash-portfolio-form-field-data">
+              <div class="dash-portfolio-form-field-data-item">
+                <img src="./images/check-btc.png" alt="" />
+                <p class="dash-portfolio-form-field-value-title">BTC</p>
+                <p class="dash-portfolio-form-field-value">25%</p>
+              </div>
+              <div class="dash-portfolio-form-field-data-item">
+                <img src="./images/check-btc.png" alt="" />
+                <p class="dash-portfolio-form-field-value-title">BTC</p>
+                <p class="dash-portfolio-form-field-value">25%</p>
+              </div>
+              <div class="dash-portfolio-form-field-data-item">
+                <img src="./images/check-btc.png" alt="" />
+                <p class="dash-portfolio-form-field-value-title">BTC</p>
+                <p class="dash-portfolio-form-field-value">25%</p>
+              </div>
+              <div class="dash-portfolio-form-field-data-item">
+                <img src="./images/check-btc.png" alt="" />
+                <p class="dash-portfolio-form-field-value-title">BTC</p>
+                <p class="dash-portfolio-form-field-value">25%</p>
+              </div>
+              <div class="dash-portfolio-form-field-data-item">
+                <img src="./images/check-btc.png" alt="" />
+                <p class="dash-portfolio-form-field-value-title">BTC</p>
+                <p class="dash-portfolio-form-field-value">25%</p>
+              </div>
+            </div>
+          </div>
+          <div class="dash-portfolio-modal-item">
+            <p class="dash-portfolio-form-field-name">Amount:</p>
+            <p class="dash-portfolio-form-field-text">$1,000</p>
+          </div>
+          <div class="dash-portfolio-modal-item">
+            <p class="dash-portfolio-form-field-name">Holding Period:</p>
+            <p class="dash-portfolio-form-field-text">1 week</p>
+          </div>
+          <div class="dash-portfolio-modal-item">
+            <p class="dash-portfolio-form-field-name">Risk Level:</p>
+            <p class="dash-portfolio-form-field-text">7.5 of 10</p>
+          </div>
+          <div class="dash-portfolio-modal-item">
+            <p class="dash-portfolio-form-field-name">Rebalancing Frequency:</p>
+            <p class="dash-portfolio-form-field-text">Daily</p>
+          </div>
+
+          <div class="dash-portfolio-modal-button">
+            <button id="close-dash-portfolio-modal" class="btn-cancel">
+              Cancel
+            </button>
+            <button class="btn-continue">Continue</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BEGIN VENDOR JS-->
+    <script src="./select-menu.js"></script>
+    <script
+      src="./MetaBaseNFT_files/jquery-3.2.1.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./MetaBaseNFT_files/popper.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./MetaBaseNFT_files/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./MetaBaseNFT_files/perfect-scrollbar.jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./MetaBaseNFT_files/prism.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./MetaBaseNFT_files/jquery.matchHeight-min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./MetaBaseNFT_files/screenfull.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./MetaBaseNFT_files/pace.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./MetaBaseNFT_files/unison.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./MetaBaseNFT_files/hopscotch.min.js"
+      type="text/javascript"
+    ></script>
+
+    <script src="./MetaBaseNFT_files/picker.js" type="text/javascript"></script>
+    <script
+      src="./MetaBaseNFT_files/picker.date.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./MetaBaseNFT_files/picker.time.js"
+      type="text/javascript"
+    ></script>
+    <script src="./MetaBaseNFT_files/legacy.js" type="text/javascript"></script>
+    <script
+      src="./MetaBaseNFT_files/jquery.validate.min.js"
+      type="text/javascript"
+    ></script>
+
+    <!-- BEGIN PAGE VENDOR JS-->
+    <script
+      src="./MetaBaseNFT_files/chartist.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./MetaBaseNFT_files/chartist-bar-labels.js"
+      type="text/javascript"
+    ></script>
+    <script src="./MetaBaseNFT_files/affix.js" type="text/javascript"></script>
+    <script src="./MetaBaseNFT_files/jquery-ui.min.js"></script>
+    <!-- END PAGE VENDOR JS-->
+
+    <!-- BEGIN APEX JS-->
+    <script
+      src="./MetaBaseNFT_files/app-menu.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./MetaBaseNFT_files/notification-sidebar.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./MetaBaseNFT_files/customizer.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./MetaBaseNFT_files/app-sidebar.js"
+      type="text/javascript"
+    ></script>
+    <script src="./MetaBaseNFT_files/app.js" type="text/javascript"></script>
+    <!-- END APEX JS-->
+
+    <!-- BEGIN PAGE LEVEL JS-->
+    <!-- END PAGE LEVEL JS-->
+
+    <script src="./MetaBaseNFT_files/jquery.dataTables.min.js"></script>
+    <script src="./MetaBaseNFT_files/bootstrap-switch.js"></script>
+    <script src="./MetaBaseNFT_files/jquery.blockUI.js"></script>
+    <script
+      src="./MetaBaseNFT_files/bootstrap-select.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="./MetaBaseNFT_files/main.js"></script>
+    <script src="./MetaBaseNFT_files/tour.js"></script>
+    <!-- Start of Rocket.Chat Livechat Script -->
+    <!-- End of Rocket.Chat Livechat Script -->
+    <script>
+      Main.base_url = "http:\/\/platforma.local";
+      function toggleLoader() {
+        if ($(".loader").hasClass("d-none")) {
+          $(".loader").removeClass("d-none");
+        } else {
+          $(".loader").addClass("d-none");
+        }
+      }
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#supportReason").on("change", function (event) {
+          var txt = $("#supportReason option:selected").text();
+          $("#supportReasonTxt").val(txt);
+        });
+        $("#supportReasonRefund").on("change", function (event) {
+          var txt = $("#supportReasonRefund option:selected").text();
+          $("#refundReasonTxt").val(txt);
+        });
+
+        if (location.hash) {
+          console.log(location.hash);
+          $('a[href="' + location.hash + '"]').tab("show");
+        }
+      });
+    </script>
+    <script>
+      var form = $("#form");
+      var btc = form.find("input[name='btc']");
+      var portfolioName = form.find("input[name='portfolio-name']");
+      var total = $("#total");
+      var modal = $("#myModal");
+      var span = $("#close-dash-portfolio-modal");
+      var checkInput = false;
+      var checkForm = false;
+
+      // update total percentage on blur of each btc
+      btc.on("blur", function () {
+        var totalPercentage = 0;
+        btc.each(function () {
+          if ($(this).val() != "") {
+            totalPercentage += parseFloat($(this).val());
+          }
+        });
+        if (!isNaN(totalPercentage)) {
+          total.html(totalPercentage + "%");
+        }
+        if (totalPercentage !== 100) {
+          checkInput = false;
+          total.parent().parent().addClass("error");
+          total.css("color", "red");
+        } else {
+          checkInput = true;
+          total.parent().parent().removeClass("error");
+          total.css("color", "#2064d7");
+        }
+      });
+
+      form.on("submit", function (event) {
+        event.preventDefault();
+        total_percentage = 0;
+        btc.each(function () {
+          if ($(this).val() != "") {
+            total_percentage += parseFloat($(this).val());
+          }
+          if (!isNaN(total_percentage)) {
+            total.html(total_percentage + "%");
+          }
+          if (total_percentage !== 100) {
+            total.parent().parent().addClass("error");
+            total.css("color", "red");
+          } else {
+            total.parent().parent().removeClass("error");
+            total.css("color", "#2064d7");
+          }
+        });
+
+        if (portfolioName.val() == "") {
+          checkForm = false;
+          portfolioName.parent().addClass("error");
+        } else {
+          checkForm = true;
+          portfolioName.parent().removeClass("error");
+        }
+        if (checkInput && checkForm) {
+          modal.modal("show");
+        }
+        span.on("click", function () {
+          modal.modal("hide");
+        });
+        $(window).on("click", function (event) {
+          if (event.target == modal[0]) {
+            modal.modal("hide");
+          }
+        });
+      });
+    </script>
+
+    <div
+      class="modal fade"
+      id="agreement"
+      data-backdrop="static"
+      data-keyboard="false"
+    >
+      <div class="modal-dialog" style="max-width: 600px">
+        <div class="modal-content">
+          <div class="modal-header bg-info">
+            <h4 class="modal-title white font-weight-bold">Attention!</h4>
+          </div>
+          <div class="modal-body">Please sign the Additional Agreement!</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              onclick="window.location = &#39;/agreement&#39;;"
+            >
+              Sign!
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      role="log"
+      aria-live="assertive"
+      aria-relevant="additions"
+      class="ui-helper-hidden-accessible"
+    ></div>
+    <div
+      role="log"
+      aria-live="assertive"
+      aria-relevant="additions"
+      class="ui-helper-hidden-accessible"
+    ></div>
+    <div
+      role="log"
+      aria-live="assertive"
+      aria-relevant="additions"
+      class="ui-helper-hidden-accessible"
+    ></div>
+    <div
+      role="log"
+      aria-live="assertive"
+      aria-relevant="additions"
+      class="ui-helper-hidden-accessible"
+    ></div>
+    <div
+      role="log"
+      aria-live="assertive"
+      aria-relevant="additions"
+      class="ui-helper-hidden-accessible"
+    ></div>
+    <div
+      role="log"
+      aria-live="assertive"
+      aria-relevant="additions"
+      class="ui-helper-hidden-accessible"
+    ></div>
+    <div
+      role="log"
+      aria-live="assertive"
+      aria-relevant="additions"
+      class="ui-helper-hidden-accessible"
+    ></div>
+    <div
+      role="log"
+      aria-live="assertive"
+      aria-relevant="additions"
+      class="ui-helper-hidden-accessible"
+    ></div>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+.brand-logo{
+    max-width:100%;
+}
+
+.footer-sticky {
+    position: sticky;
+    bottom: 0px;
+}
+.spacer {
+    padding-top: -0.5rem;
+    padding-bottom: -0.5rem;
+    border-bottom: 1px solid #eeee;
+}
+
+.label.label-big {
+    font-size:1rem;
+}
+
+/*
+ Create campaign nav bar fixed
+ */
+.navbar-fixed-top{
+    position:sticky;
+    top:0px;
+    z-index:1;
+}
+/*
+ End Create campaign nav bar fixed
+ */
+
+/*
+bread crumbs
+
+ */
+ul.page-breadcrumb{
+    display: flex;
+    list-style: none;
+}
+
+/********************************
+// CHARTS
+********************************/
+.graph-view{
+    display: none;
+}
+
+.campaigns-table-view{
+    font-size: 2em;
+    color:#009DA0;
+    padding:1rem;
+}
+
+.campaigns-graph-view{
+    font-size: 2em;
+    color:#009DA0;
+    padding:1rem;
+}
+.charts .ct-bar{
+    stroke-width: 50px;
+}
+.charts svg.ct-chart-bar text{
+    fill:black;    
+}
+
+/********************************
+// END CHARTS
+********************************/
+
+/*
+datatables remove filters
+*/
+/*#DataTables_Table_0_length{*/
+    /*display: none;*/
+/*}*/
+/*#DataTables_Table_0_filter{*/
+    /*display: none;*/
+/*}*/
+/*#DataTables_Table_0_paginate{*/
+    /*display: none;*/
+/*}*/
+.dataTables_filter{
+    display: none;
+}
+/*.dataTables_length{*/
+    /*display:none;*/
+/*}*/
+/*.dataTables_paginate{*/
+    /*display:none;*/
+/*}*/
+/*end data tables*/
+
+
+
+/********************************
+// Sidebar
+********************************/
+.menu-collapsed .nav-item i {
+    margin-right: 24px!important;
+    
+}

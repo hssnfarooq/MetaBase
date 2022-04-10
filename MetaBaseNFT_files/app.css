@@ -1,0 +1,43 @@
+select[name="budget"] {
+    height: 40px;
+    padding: 5px;
+    background: transparent;
+}
+
+.buy-more-impressions {
+    width: 232px;
+    margin-top: 15px;
+}
+
+.explain-buy-impressions{
+    padding: 5px;
+    white-space: pre-line;
+    padding-bottom: 25px;
+}
+
+
+.alert-buy-impressions {
+    margin-top: 10px;
+    margin-bottom: -17px !important;
+}
+.main-content .wizard > .steps > ul > li.current > a {
+    outline:none;
+}
+h4.card-title{
+
+    /*font-size: 0.9vw !important;*/
+}
+
+.pointer {
+    cursor:pointer;
+}
+
+.market-campaigns .row > [class*='col-'] {
+ display: flex;
+ flex-direction: column;
+}
+
+.market-nfts .row > [class*='col-'] {
+ display: flex;
+ flex-direction: column;
+}
